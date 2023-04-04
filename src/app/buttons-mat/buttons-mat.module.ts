@@ -12,11 +12,15 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatNativeDateModule} from '@angular/material/core';
 import { MatInputModule } from '@angular/material/input';
+import { ModalComponent } from './modal/modal.component';
+import {MatDialogModule} from '@angular/material/dialog';
+
 
 @NgModule({
   declarations: [
     ButtonsMatComponent,
-    DatepickerComponent
+    DatepickerComponent,
+    ModalComponent
   ],
   imports: [
     CommonModule,
@@ -28,6 +32,7 @@ import { MatInputModule } from '@angular/material/input';
     MatFormFieldModule,
     MatNativeDateModule,
     MatInputModule,
+    MatDialogModule,
     ButtonsMatRoutingModule
   ]
 })
