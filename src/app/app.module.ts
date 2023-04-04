@@ -15,7 +15,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
 import { ButtonsMatModule } from './buttons-mat/buttons-mat.module';
 import { HomeComponent } from './home/home.component';
-import {MatDatepickerModule} from '@angular/material/datepicker';
+
 
 
 // import { MatToolbarModule, MatIconModule, MatSidenavModule, MatListModule, MatButtonModule } from  '@angular/material';
@@ -38,7 +38,6 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
     MatButtonModule,
     MatIconModule,
     ButtonsMatModule,
-    MatDatepickerModule,
     BrowserAnimationsModule
   ],
   providers: [],

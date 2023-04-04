@@ -7,10 +7,16 @@ import {MatRadioModule} from '@angular/material/radio';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { DatepickerComponent } from './datepicker/datepicker.component';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatNativeDateModule} from '@angular/material/core';
+import { MatInputModule } from '@angular/material/input';
 
 @NgModule({
   declarations: [
-    ButtonsMatComponent
+    ButtonsMatComponent,
+    DatepickerComponent
   ],
   imports: [
     CommonModule,
@@ -18,6 +24,10 @@ import {MatButtonModule} from '@angular/material/button';
     MatDividerModule,
     MatIconModule,
     MatButtonModule,
+    MatDatepickerModule,
+    MatFormFieldModule,
+    MatNativeDateModule,
+    MatInputModule,
     ButtonsMatRoutingModule
   ]
 })
