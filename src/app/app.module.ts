@@ -16,10 +16,6 @@ import { MatInputModule } from '@angular/material/input';
 import { ButtonsMatModule } from './buttons-mat/buttons-mat.module';
 import { HomeComponent } from './home/home.component';
 
-
-
-// import { MatToolbarModule, MatIconModule, MatSidenavModule, MatListModule, MatButtonModule } from  '@angular/material';
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,7 +24,6 @@ import { HomeComponent } from './home/home.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     MatButtonModule,
     MatIconModule,
     MatInputModule,
@@ -38,7 +33,8 @@ import { HomeComponent } from './home/home.component';
     MatButtonModule,
     MatIconModule,
     ButtonsMatModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

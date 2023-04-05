@@ -7,12 +7,12 @@ import {MatRadioModule} from '@angular/material/radio';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
-import { DatepickerComponent } from './datepicker/datepicker.component';
+import {DatepickerComponent} from './datepicker/datepicker.component';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatNativeDateModule} from '@angular/material/core';
-import { MatInputModule } from '@angular/material/input';
-import { ModalComponent } from './modal/modal.component';
+import {MatInputModule} from '@angular/material/input';
+import {ModalComponent} from './modal/modal.component';
 import {MatDialogModule} from '@angular/material/dialog';
 
 
